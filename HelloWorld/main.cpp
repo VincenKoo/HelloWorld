@@ -10,6 +10,8 @@
 
 int main(int argc, const char * argv[])
 {
+    extern int test(void);
+    test();
 
     // insert code here...
     std::cout << "Hello, World!\n";

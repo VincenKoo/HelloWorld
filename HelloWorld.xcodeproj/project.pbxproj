@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E1158C616679B7F006EB485 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E1158C516679B7F006EB485 /* main.cpp */; };
 		4E1158C816679B7F006EB485 /* HelloWorld.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E1158C716679B7F006EB485 /* HelloWorld.1 */; };
+		4EE7C5B41667CF91007D0E33 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EE7C5B31667CF91007D0E33 /* test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		4E1158C116679B7F006EB485 /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E1158C516679B7F006EB485 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4E1158C716679B7F006EB485 /* HelloWorld.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloWorld.1; sourceTree = "<group>"; };
+		4EE7C5B31667CF91007D0E33 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				4E1158C516679B7F006EB485 /* main.cpp */,
 				4E1158C716679B7F006EB485 /* HelloWorld.1 */,
+				4EE7C5B31667CF91007D0E33 /* test.cpp */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E1158C616679B7F006EB485 /* main.cpp in Sources */,
+				4EE7C5B41667CF91007D0E33 /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +214,7 @@
 				4E1158CD16679B7F006EB485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
